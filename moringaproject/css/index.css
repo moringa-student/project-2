@@ -1,3 +1,20 @@
+h1{
+  font-size: 30px;
+  font-family: cursive;
+  color: red;
+  line-height: 0px;
+}
+p{
+  font-size: 90px;
+  font-family: monospace;
+  color: orange;
+
+}
+.future{
+  display: inline-block;
+  position: absolute;
+  bottom:20px;
+}
 .container{
   display : flex;
   align-items: center;
@@ -34,10 +51,6 @@
   height: auto;
   max-height : 400px;
   transition : transform 2s;
-
-}
-.image-box:hover{
-  transform : scale(1.5);
 }
 .image-box{
   width: 400px;
@@ -46,5 +59,16 @@
   position : absolute;
   top:10px;
   overflow:hidden;
-  trabsition : transform 2s;
+}
+.myfavors{
+  display : inline;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4d7db;
+  position:fixed;
+  overflow: auto;
+  right:0px;
+  left:0px;
+  top:0px;
+  bottom:0px;
 }
